@@ -1,1 +1,10 @@
 /* custom styles */
+ #page-wrapper h2 {
+   font-family: 'Indie Flower', cursive;
+ }
+#page-wrapper h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#welcome {
+  border-radius: 150px;
+}
