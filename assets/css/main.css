@@ -1,21 +1,55 @@
 /* custom styles */
- #page-wrapper h1 {
-   font-family: 'PT Sans Narrow', sans-serif;
-   font-size: 50px;
-   margin-bottom: 0;
- }
-#page-wrapper h2 {
-  font-family: 'Droid Sans', sans-serif;
-  margin-top: 5px;
-}
-img {
-  border-radius: 50%;
-  border: 4px dot silver;
-}
-#page-wrapper {
+.page-wrapper {
   margin: absolute;
   text-align: center;
   letter-spacing: 1.5px;
   text-shadow: silver -1px -1px;
   text-transform: uppercase;
+}
+.page-wrapper h1 {
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 50px;
+   margin-bottom: 0;
+   margin-top: 50px;
+}
+.page-wrapper h2 {
+  font-family: 'Droid Sans', sans-serif;
+  margin-top: 5px;
+}
+.page-wrapper img {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 1px;
+  text-shadow: -6px -1px -1px black;
+}
+#navi_bar {
+  background: silver;
+  padding: 10px 0;
+  position: fixed;
+  top:0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 3px 10px black;
+}
+#con_nav {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 300px;
+  display:flex;
+}
+.nav_link {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  width: 60px;
+  padding: 5px;
+  margin: 0 auto;
+  border: .5px solid black;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .5px;
+  color: black;
+  background: darkGrey;
+  box-shadow: -1px 1px 2px black;
 }
