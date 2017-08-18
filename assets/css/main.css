@@ -1,28 +1,41 @@
-/* custom styles */
+/* Header box */
 .page-wrapper {
   margin: absolute;
   text-align: center;
   letter-spacing: 1.5px;
   text-shadow: silver -1px -1px;
   text-transform: uppercase;
+  box-shadow: 0 2px 4px black;
 }
-.page-wrapper h1 {
+.wrap_h1 {
    font-family: 'PT Sans Narrow', sans-serif;
-   font-size: 50px;
+   font-size: 42px;
    margin-bottom: 0;
-   margin-top: 50px;
+   margin-top: 80px;
 }
-.page-wrapper h2 {
+.wrap_h2 {
   font-family: 'Droid Sans', sans-serif;
   margin-top: 5px;
 }
-.page-wrapper img {
+.wrap_img {
   border-radius: 50%;
   border: 2px solid black;
   padding: 1px;
-  text-shadow: -6px -1px -1px black;
+  position: relative;
 }
+.boarders:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 5px solid #ffea00;
+}
+/* Scrolling Contact Bar */
 #navi_bar {
+  z-index: 2;
   background: silver;
   padding: 10px 0;
   position: fixed;
@@ -52,4 +65,30 @@
   color: black;
   background: darkGrey;
   box-shadow: -1px 1px 2px black;
+}
+/* About Section */
+.about {
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 0 15px;
+  margin-left: 10%;
+  width: 33%;
+  border: solid 1px black;
+  text-align: justify;
+  letter-spacing: 1.5px;
+  text-shadow: silver -1px -1px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px black;
+  height: 300px;
+}
+.abo_h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  top: 50px;
+  position: relative;
+}
+.abo_p{
+  position: relative;
+  padding: 0 30px 50px;
+  top: 50px;
 }
